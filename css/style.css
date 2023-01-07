@@ -1,4 +1,4 @@
-
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
 *{
     margin:0px;
@@ -44,7 +44,7 @@ body{
         font-weight: 600;
         font-size: 15px;
         border: 0;
-        padding: 12px 10px;
+        padding: 12px 12px;
         border-radius: 5px;
         background: white;
         margin-top: 25px;
@@ -97,8 +97,64 @@ body{
     .items small{
         color:black;
     }
-    /* previous failures styles end */
-    
+    /* previous failures styles end *
+
+   /* My plans styles start  */
+.plans-title{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 70px;
+}
+
+.all-my-plans{
+    display: flex;
+   justify-content: space-around; 
+    margin: 50px 200px;
+}
+.category-img{
+    width:50%;
+    height: 50%;
+    margin:auto;
+    display: block;
+}
+.title-plans{
+    padding-top: 20px;
+}
+.plans-descrip{
+    margin-top:10px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #737272;
+
+}
+   /* My plans styles end  */
+
+
+   /* <always keep a positive style start  */
+   .always-keep-container{
+        max-width: 70%;
+        margin: auto;
+   }
+   .always-keep-info{
+    background-image: url(../assets/images/watch.png),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-size:cover;
+    background-blend-mode: overlay;
+    padding: 50px;
+    margin: 70px 0;   
+    border-radius: 8px;
+   }
+   .always-keep-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+   }
+     /* always keep a positive style end  */
+
 
 
 
