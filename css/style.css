@@ -55,14 +55,15 @@ body{
 /* previous failure styles start */
     .previous-year{
         display: flex;
+        justify-content: space-between;
         align-items: center;
         margin: 90px 180px 60px 120px;
         
     }
    
-    .previous-year-left-content img{
+      .previous-year-left-content img{
         height: 500px;
-    }
+    } 
 
     .previous-year-right-content{
         padding:50px 10px 50px 50px;
@@ -87,16 +88,16 @@ body{
         line-height: 26px;
         margin-left:15px;
     }
-    /* .item{
+     .item{
        list-style-type: circle;
 
-    } */
-    .item-color{
+    }
+     .item-color{
         color:#16D887;
     }
     .items small{
         color:black;
-    }
+    } 
     /* previous failures styles end *
 
    /* My plans styles start  */
