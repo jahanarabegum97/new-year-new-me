@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* banner style start */
+.header{
+    background-image: url(../assets/images/banner/banner3.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: overlay;
+    width: 100%;
+}
+    .banner-section{
+        font-size: 18px;
+        text-align: right;
+        padding:100px 150px;
+        color:white;
+    }
+    .banner-title{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+
+    }
+    .banner-description{
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 26px;
+         margin-top: 25px;
+    }
+    
+    .btn-contact {
+        color: #005FAC;
+        font-weight: 600;
+        font-size: 15px;
+        border: 0;
+        padding: 12px 10px;
+        border-radius: 5px;
+        background: white;
+        margin-top: 25px;
+    }
+   
+/* banner style end */
+
+/* previous failure styles start */
+    .previous-year{
+        display: flex;
+        align-items: center;
+        margin: 90px 180px 60px 120px;
+        
+    }
+   
+    .previous-year-left-content img{
+        height: 500px;
+    }
+
+    .previous-year-right-content{
+        padding:50px 10px 50px 50px;
+    }
+
+    .previous-year-title{
+        font-weight: 700;
+        font-size: 40px;
+        color: #151414;
+        padding-bottom: 20px;
+
+    }
+    .previous-year-description{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #444343;
+        margin-bottom: 10px;   
+    }
+
+    .items{
+        line-height: 26px;
+        margin-left:15px;
+    }
+    /* .item{
+       list-style-type: circle;
+
+    } */
+    .item-color{
+        color:#16D887;
+    }
+    .items small{
+        color:black;
+    }
+    /* previous failures styles end */
+    
+
+
+
+
+
